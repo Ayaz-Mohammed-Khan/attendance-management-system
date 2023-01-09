@@ -74,6 +74,7 @@ h3{
 }
 #admin, #faculty{
   padding: 8px 12px;
+  margin-right: 10px;
   font-weight: bold;
   background-color: #17252a;
   border: none;

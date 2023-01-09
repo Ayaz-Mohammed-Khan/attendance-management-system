@@ -1,9 +1,9 @@
-export default function Login(){
+export default function Login(props){
     return(
         <div>
             <div id="main">
                 <div id="text">
-                <img id="logo" alt="attendence-management" src="images/logo.png" />
+                <img id="logo" alt="attendence-management" src={props.logo}/>
                 <h1>Attendence Management System</h1>
             </div>
             <div  id="form">
