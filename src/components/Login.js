@@ -10,7 +10,7 @@ export default function Login(props) {
           <form id="login">
             <div>
               <h3>Login</h3>
-              <button>Back</button>
+              <button onClick={() => props.func()}>Back</button>
               <br />
               <label for="User-Id">User-Id</label>
               <br />

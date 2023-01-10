@@ -13,7 +13,7 @@ export default function App() {
   return (
     <div>
       {!isTrue && <LoginP func={handler} logo={logo} />}
-      {isTrue && <Login logo={logo} />}
+      {isTrue && <Login func={handler} logo={logo} />}
     </div>
   );
 }
