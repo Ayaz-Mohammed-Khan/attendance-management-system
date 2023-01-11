@@ -7,7 +7,6 @@ import LoginP from "./components/LoginP";
 export default function App() {
   const [isTrue, setIsTrue] = React.useState(false);
   function handler(id) {
-    console.log(id);
     setIsTrue((prev) => !prev);
   }
   return (

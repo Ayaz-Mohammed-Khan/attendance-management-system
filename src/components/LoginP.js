@@ -7,7 +7,7 @@ export default function LoginP(props) {
         <h1>Attendence Management System</h1>
       </div>
       <div id="form">
-        <div className="login-primery" id="login">
+        <div className="login-primery" id="loginp">
           <h3>Login</h3>
           <button
             onClick={() => props.func("admin")}

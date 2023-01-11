@@ -9,8 +9,6 @@ export default function Login(props) {
         <div id="form">
           <form id="login">
             <div>
-              <h3>Login</h3>
-              <button onClick={() => props.func()}>Back</button>
               <br />
               <label for="User-Id">User-Id</label>
               <br />
@@ -19,7 +17,12 @@ export default function Login(props) {
               <br />
               <input className="input-data" id="Password" type="password" />
               <br />
-              <input id="submit" value="Login" type="Submit" />
+              <div class="conatiner">
+                <button id="btns" onClick={() => props.func()}>
+                  ⬅
+                </button>
+                <input id="btns" value="Login" type="Submit" />
+              </div>
             </div>
           </form>
         </div>
